@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1620393595 source:c:\users\aurelia\desktop\codeblocks\FinalLab\src\rectblocks.cpp
+	"../include/rectBlocks.h"
+	<iostream>
+
+1620395223 c:\users\aurelia\desktop\codeblocks\FinalLab\include\rectblocks.h
+	<iostream>
+
+1620343972 source:c:\users\aurelia\desktop\codeblocks\FinalLab\src\cylindricalblocks.cpp
+	"../include/cylindricalBlocks.h"
+
+1620343808 c:\users\aurelia\desktop\codeblocks\FinalLab\include\cylindricalblocks.h
+	"C:\Users\Aurelia\Desktop\codeblocks\FinalLab\include\sqrBaseRectBlocks.h"
+
+1620344327 c:\users\aurelia\desktop\codeblocks\FinalLab\include\sqrbaserectblocks.h
+	"C:\Users\Aurelia\Desktop\codeblocks\FinalLab\include\rectBlocks.h"
+
+1620343124 source:c:\users\aurelia\desktop\codeblocks\FinalLab\src\cuboidblocks.cpp
+	"../include/cuboidBlocks.h"
+
+1620344271 c:\users\aurelia\desktop\codeblocks\FinalLab\include\cuboidblocks.h
+	"C:\Users\Aurelia\Desktop\codeblocks\FinalLab\include\sqrBaseRectBlocks.h"
+
+1620343124 source:c:\users\aurelia\desktop\codeblocks\FinalLab\src\sqrbaserectblocks.cpp
+	"../include/sqrBaseRectBlocks.h"
+
+1620344397 source:c:\users\aurelia\desktop\codeblocks\FinalLab\src\sphericalblocks.cpp
+	"../include/sphericalBlocks.h"
+
+1620344380 c:\users\aurelia\desktop\codeblocks\FinalLab\include\sphericalblocks.h
+	"C:\Users\Aurelia\Desktop\codeblocks\FinalLab\include\cuboidBlocks.h"
+	<vector>
+
+1620393451 source:c:\users\aurelia\desktop\codeblocks\FinalLab\main.cpp
+	"C:\Users\Aurelia\Desktop\codeblocks\FinalLab\include\rectBlocks.h"
+	"C:\Users\Aurelia\Desktop\codeblocks\FinalLab\include\sqrBaseRectBlocks.h"
+	"C:\Users\Aurelia\Desktop\codeblocks\FinalLab\include\sphericalBlocks.h"
+	"C:\Users\Aurelia\Desktop\codeblocks\FinalLab\include\cylindricalBlocks.h"
+	<iostream>
+	<vector>
+	<string>
+	<iomanip>
+	<sstream>
+	<fstream>
+

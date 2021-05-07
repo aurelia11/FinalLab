@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FinalLab" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/FinalLab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/FinalLab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Makefile.txt" />
+		<Unit filename="dataBlocks.dat" />
+		<Unit filename="include/cuboidBlocks.h" />
+		<Unit filename="include/cylindricalBlocks.h" />
+		<Unit filename="include/rectBlocks.h" />
+		<Unit filename="include/sphericalBlocks.h" />
+		<Unit filename="include/sqrBaseRectBlocks.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/cuboidBlocks.cpp" />
+		<Unit filename="src/cylindricalBlocks.cpp" />
+		<Unit filename="src/rectBlocks.cpp" />
+		<Unit filename="src/sphericalBlocks.cpp" />
+		<Unit filename="src/sqrBaseRectBlocks.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
